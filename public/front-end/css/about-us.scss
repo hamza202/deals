@@ -1,0 +1,42 @@
+.site-page {
+  margin-top: 3.5rem;
+}
+.image {
+  width: 100%;
+}
+.title {
+  font-weight: bold;
+  color: #e1e316;
+  text-align: right;
+}
+.second-title{
+  display: none;
+  font-weight: bold;
+  color: #e1e316;
+  text-align: right;
+}
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.paragraph {
+  font-size: 18px;
+  text-align: right;
+  width: 100%;
+  color: #707070;
+}
+@media (max-width: 768px) {
+  .paragraphs {
+    width: 100%px;
+    text-align: right;
+    padding-left: 20px;
+  }
+  .title{
+    display: none;
+  }
+  .second-title{
+    display: flex;
+  }
+}

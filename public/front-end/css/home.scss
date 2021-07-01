@@ -1,0 +1,261 @@
+h2 {
+  font-size: 1.5rem;
+}
+.form-control:focus {
+  color: #495057;
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+  background-color: transparent;
+}
+
+.right-menu {
+  background-color: #efefef;
+  border-radius: 0.6rem !important;
+  font-size: 0.8rem;
+}
+
+.right-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu ul li {
+  padding: 0.75rem 1.2rem;
+  border-radius: 50rem !important;
+  color: #606261;
+}
+
+.right-menu ul li:hover {
+  background-color: #b8b8b8;
+  color: #fff;
+}
+
+.right-menu ul a::after{
+  content: "";
+  height: 2rem;
+  width: 1px;
+  background-color: #3E3E3E;
+  color: #3E3E3E;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.LT-ad-area {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.RB-ad-area {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.card-home {
+  //   margin-top: -14rem;
+  color: #b8b8b8;
+}
+
+// .button-package{
+//     font-size: 0.5rem;
+// }
+
+// .card-home h2{
+//     font-weight: bolder;
+// }
+
+.carousel-caption {
+  right: 4%;
+}
+
+.text-slider {
+  background-color: #70707070;
+  border-radius: 0.5rem !important;
+  padding: 1rem;
+}
+
+.txt-filter-search {
+  color: #b8b8b8;
+}
+
+.filter-search {
+  background-color: #ebebeb;
+  border-radius: 0.3rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.bg-card1{
+  background-image: url("../images/index-img-card.svg");
+}
+
+.bg-card2{
+  background-image: url("../images/bg-home-card.svg");
+}
+
+.bg-card3{
+  background-image: url("../images/bg-card-home2.svg");
+}
+
+.ad-area-lg {
+  width: 1110px;
+}
+
+.load-more {
+  background-color: #fafafa;
+  border-top: 1px #e2e2e2 solid;
+  border-bottom: 1px #e2e2e2 solid;
+  // padding: 0.8rem 0px;
+  margin: 1.5rem 0px;
+}
+
+.load-more h6 {
+  margin: 0;
+  color: #979797;
+  font-size: 80%;
+}
+
+.carousel-inner{
+  border-radius: .5rem!important;
+}
+
+.shared-wrapper{
+  position: fixed;
+  width: 400px;
+  height: 150px;
+  background: #ffffffe0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%)  translateX(89%);
+  transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 9994;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  
+  border-top-left-radius: 1.1rem ;
+  border-bottom-left-radius: 1.1rem ;
+  &.active{
+    transform: translateY(-50%)  translateX(0%);
+    .shared-deal{
+      background-color: #b5bb14;
+    }
+  }
+  .btn{
+    border: 1px solid #ccc !important;
+  }
+
+  .shared-deal{
+    // position: fixed;
+    // right: -4rem;
+    // top: 16.5rem;
+    // -webkit-transform: rotate(270deg);
+    // transform: rotate(270deg);
+    // height: 3.5rem;
+    // width: 11rem;
+    // z-index: 10;
+    
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #CACF2B;
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    /* right: auto; */
+    left: 0;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50px, 50px) rotate(-90deg);
+    z-index: 9995;
+  }
+}
+
+.order-icon{
+  background-color: #fff;
+  padding: 0.65rem;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in;
+  &.active{
+    background-color: #888;
+    transition: 0.3s ease-in;
+    i{
+      color: #fff;
+      transition: 0.3s ease-in;
+    }
+  }
+}
+
+.rounded-img-card{
+  border-radius: 0 !important;
+  border-top-right-radius: 1rem !important ;
+  border-bottom-right-radius: 1rem !important ;
+}
+
+.label-fixed-grid{
+  border-top-left-radius:0 !important ;
+  border-top-right-radius:0 !important ;
+  border-bottom-right-radius: 0.8rem !important ;
+  border-bottom-left-radius: 0 !important ;
+} 
+
+
+
+@media (max-width: 575px) {
+  .fixed-ad{
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .card-home {
+    margin-top: 1rem;
+  }
+  .ad-area-lg {
+    max-width: inherit;
+  }
+}
+
+@media (min-width: 600px) {
+  .card-home {
+    margin-top: 1rem;
+  }
+  .ad-area-lg {
+    max-width: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider-home {
+    min-height: 34rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-home {
+    margin-top: -17rem;
+  }
+  .header-ad-img {
+    max-width: 210px;
+    height: 422px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider-home {
+    min-height: 34rem;
+  }
+  .card-home {
+    margin-top: -18.5rem;
+  }
+  .header-ad-img {
+    max-width: 255px;
+    height: 446px;
+  }
+}
